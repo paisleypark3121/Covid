@@ -19,7 +19,7 @@ const https = require('https');
 require('ejs');
 const app=express();
 const bodyParser = require("body-parser");
-var port=process.env.port || 3000;
+var port=process.env.PORT || 3000;
 app.set('view engine', 'ejs');
 app.use( express.static( "public" ) );
 
